@@ -1,17 +1,16 @@
-.uno,.tres, .cuatro, .cinco{
+.uno,.cinco{
   width: 200px;
   height: 200px;
   background: #777;
-  border: 1px solid black;
+
   padding-bottom: 10px;
   margin: 10px 10px;
 
 }
 .dos{
-  width: 560px;
-  height: 200px;
+  width: 558px;
+  height: 190px;
   background: #777;
-  border: 2px solid black;
   margin: 10px 10px;
   position: relative;
 }
@@ -26,5 +25,17 @@
  margin: 10px 10px;
 }
 .tres,.cuatro{
+  width: 200px;
+  height: 200px;
+  background: #777;
+
+  margin: 10px 10px;
   float: left;
+  margin-top: 10px;
+  margin-right: 10px;
+  position: relative;
+}
+.cinco{
+  position: absolute;
+  margin-top: 240px;
 }
