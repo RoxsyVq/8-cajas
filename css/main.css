@@ -1,0 +1,30 @@
+.uno,.tres, .cuatro, .cinco{
+  width: 200px;
+  height: 200px;
+  background: #777;
+  border: 1px solid black;
+  padding-bottom: 10px;
+  margin: 10px 10px;
+
+}
+.dos{
+  width: 560px;
+  height: 200px;
+  background: #777;
+  border: 2px solid black;
+  margin: 10px 10px;
+  position: relative;
+}
+.a{
+  width: 150px;
+  height: 150px;
+  border:2px solid black;
+ padding: 5px 5px 5px 5px;
+ display: inline;
+ position: relative;
+ float: left;
+ margin: 10px 10px;
+}
+.tres,.cuatro{
+  float: left;
+}
